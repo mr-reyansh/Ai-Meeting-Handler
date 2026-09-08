@@ -107,7 +107,7 @@ The six final Figma exports are included in [`design/figma/`](design/figma/).
 
 The layered structure makes future changes easier because AI providers, database implementations, UI components, APIs, and deployment infrastructure can be changed independently where practical. The SQLite schema is initialized by the backend for local development, while the database boundary leaves room for a managed relational database in a later deployment.
 
-## Quick Start - Local Development
+## Quick Start – Local Development
 
 ### Prerequisites
 
@@ -120,17 +120,17 @@ The layered structure makes future changes easier because AI providers, database
 ### Clone
 
 ```bash
-git clone <ACTUAL_REPOSITORY_URL>
-cd <ACTUAL_PROJECT_DIRECTORY>
+git clone https://github.com/mr-reyansh/Ai-Meeting-Handler.git
+cd Ai-Meeting-Handler
 ```
-
-Replace the placeholders with the existing repository URL and directory name when cloning.
 
 ### Environment
 
 Copy `backend/.env.example` to `backend/.env` and set `OPENAI_API_KEY`. `PORT` defaults to `5000`; `DB_PATH` defaults to `backend/database.sqlite` when the variable is omitted. Never commit `.env` or real credentials.
 
 ### Docker
+
+Docker Desktop must be installed locally before running these commands. Docker was not tested in the current development environment because Docker is not installed there.
 
 From the repository root:
 
@@ -194,7 +194,7 @@ main
   -> Merge into main
 ```
 
-For this assignment, the intended branch name is `feature/software-design`. The branch and commit can only be created after the project is placed inside its Git repository.
+For this assignment, the changes are on the `feature/software-design` branch.
 
 ## Database Design
 
