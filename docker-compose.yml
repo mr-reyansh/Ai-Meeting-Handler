@@ -1,0 +1,26 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    environment:
+      DB_PATH: /app/data/database.sqlite
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      PORT: 5000
+      NODE_ENV: production
+    ports:
+      - "5000:5000"
+    volumes:
+      - meeting-data:/app/data
+
+  frontend:
+    build:
+      context: ./frontend
+    environment:
+      VITE_API_PROXY_TARGET: http://backend:5000
+    depends_on:
+      - backend
+    ports:
+      - "3000:3000"
+
+volumes:
+  meeting-data:

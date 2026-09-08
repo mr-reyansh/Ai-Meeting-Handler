@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+coverage/
+
+# Runtime data and logs
+*.log
+backend/database.sqlite
+backend/*.sqlite-journal
+backend/*.sqlite-wal
+backend/*.sqlite-shm
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# IDE and operating-system files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local Docker data
+.docker/
