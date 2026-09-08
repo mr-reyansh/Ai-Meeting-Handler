@@ -63,7 +63,7 @@ The React client provides the user interface, the Express server exposes the RES
 
 [View Architecture Diagram](./design/architecture/AI-Meeting-Architecture.png)
 
-The architecture source and PNG are assignment deliverables and are not included in this workspace yet.
+The architecture source and exported PNG are included in [`design/architecture/`](design/architecture/).
 
 ### UI Design
 
@@ -204,10 +204,10 @@ The original Oracle DDL is retained in [`schema.sql`](schema.sql) as an assignme
 
 ## Assignment Deliverables
 
-The following assignment files still need to be supplied manually:
+The final software design deliverables are included in the repository:
 
-- `design/architecture/AI-Meeting-Architecture.drawio`
-- `design/architecture/AI-Meeting-Architecture.png`
-- `design/Software-Design-Document.pdf`
+- [Architecture source](./design/architecture/AI-Meeting-Architecture.drawio)
+- [Architecture diagram](./design/architecture/AI-Meeting-Architecture.png)
+- [Software Design Document](./design/Software-Design-Document.pdf)
 
-See [`design/README.md`](design/README.md) for the complete deliverable list.
+The six final Figma screen exports are available in [`design/figma/`](design/figma/).
