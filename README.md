@@ -202,12 +202,26 @@ The runtime database contains meetings, transcripts, tasks, decisions, and task 
 
 The original Oracle DDL is retained in [`schema.sql`](schema.sql) as an assignment reference; it is not the active runtime schema.
 
-## Assignment Deliverables
+# Design Deliverables
 
-The final software design deliverables are included in the repository:
+This directory contains the Software Design assignment deliverables for the AI Meeting Intelligence System.
 
-- [Architecture source](./design/architecture/AI-Meeting-Architecture.drawio)
-- [Architecture diagram](./design/architecture/AI-Meeting-Architecture.png)
-- [Software Design Document](./design/Software-Design-Document.pdf)
+## Architecture
 
-The six final Figma screen exports are available in [`design/figma/`](design/figma/).
+- [AI Meeting Architecture – Editable Draw.io Source](./architecture/AI-Meeting-Architecture.drawio)
+- [AI Meeting Architecture – PNG](./architecture/AI-Meeting-Architecture.png)
+
+## Software Design Document
+
+- [Software Design Document](./Software-Design-Document.pdf)
+
+## Figma Exports
+
+The six finalized UI screens are included as PNG exports:
+
+- [Login](./figma/login.png)
+- [Dashboard](./figma/dashboard.png)
+- [Upload Transcript](./figma/upload-transcript.png)
+- [Meeting Details](./figma/meeting-details.png)
+- [Tasks](./figma/tasks.png)
+- [Profile](./figma/profile.png)
